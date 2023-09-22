@@ -725,7 +725,7 @@ summary {
 /* ==================================== HERO ==================================== */
 
 .main-hero {
-  background-color: grey;
+  background-color: var(--coffee);
 }
 
 .hero {
