@@ -637,21 +637,11 @@ summary {
 }
 /* ==================================== //COMPONENTS ==================================== */
 
-.container-nonsense {
-  border-bottom: 1px solid #a8a198;
-  width: 1000px;
-  position: fixed;
-  top: 50%;
-  right: -468.6px;
-  /* transform: translate(-50%, -50%); */
-  transform: rotate(90deg);
-}
-
 .nonsense-svg {
   position: fixed;
   top: 50%;
-  left: 97.8%;
-  transform: translate(-50%, -50%);
+  left: 88%;
+  transform: translate(-88%, -50%);
 }
 
 /* ==================================== HEADER ==================================== */
