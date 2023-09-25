@@ -642,8 +642,8 @@ summary {
   width: 1000px;
   position: fixed;
   top: 50%;
-  left: 71.8%;
-  transform: translate(-50%, -50%);
+  right: -468.6px;
+  /* transform: translate(-50%, -50%); */
   transform: rotate(90deg);
 }
 
