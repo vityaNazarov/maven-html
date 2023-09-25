@@ -565,6 +565,7 @@ summary {
 /* ==================================== //MODERN NORMALIZE ==================================== */
 
 :root {
+  --background-header: rgba(255, 255, 255, 0.2);
   --text-dark: #232427;
   --text-light: #f9f9f9;
   --accent-blue: #bed0d2;
@@ -636,11 +637,33 @@ summary {
 }
 /* ==================================== //COMPONENTS ==================================== */
 
+.container-nonsense {
+  border-bottom: 1px solid #a8a198;
+  width: 1000px;
+  position: fixed;
+  top: 50%;
+  left: 71.8%;
+  transform: translate(-50%, -50%);
+  transform: rotate(90deg);
+}
+
+.nonsense-svg {
+  position: fixed;
+  top: 50%;
+  left: 97.8%;
+  transform: translate(-50%, -50%);
+}
+
 /* ==================================== HEADER ==================================== */
 
 .page-header {
   padding-top: 32px;
   padding-bottom: 32px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background: var(--background-header);
+  backdrop-filter: blur(50px);
 }
 
 .page-header-container {
@@ -726,6 +749,12 @@ summary {
 
 .main-hero {
   background-color: var(--coffee);
+}
+
+.container-hero {
+  width: 100%;
+  background-image: url("./images/img/overlay.jpg");
+  background-size: cover;
 }
 
 .hero {
@@ -877,6 +906,9 @@ summary {
 
 .carousel-list-img {
   border-radius: 16px;
+}
+.carousel-list-img:hover {
+  box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.05);
 }
 
 .carousel-slider {
