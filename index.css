@@ -650,7 +650,9 @@ summary {
   padding-top: 32px;
   padding-bottom: 32px;
   position: fixed;
-  z-index: 100;
+  top: 0;
+  left: 0;
+  /* z-index: 100; */
   width: 100%;
   background: var(--background-header);
   backdrop-filter: blur(50px);
@@ -684,8 +686,6 @@ summary {
   border-bottom: 1px solid var(--text-dark);
 }
 
-.menu-item {
-}
 .menu-item:not(:last-child) {
   margin-right: 52px;
 }
@@ -841,9 +841,6 @@ summary {
   margin-right: auto;
 }
 
-.advantages-svg {
-}
-
 .advantages-title {
   color: var(--coffee);
   font-family: Comfortaa;
@@ -861,10 +858,10 @@ summary {
   color: var(--text-dark);
 
   font-family: Lato, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.019px;
+  letter-spacing: 0.024px;
 }
 
 /* ==================================== //ADVANTAGES ==================================== */
@@ -1024,12 +1021,6 @@ summary {
   margin-bottom: 27px;
 }
 
-.subscription-link-instagram {
-}
-
-.subscription-link-tiktok {
-}
-
 .footer-links {
   display: flex;
   justify-content: space-around;
@@ -1047,3 +1038,32 @@ summary {
 }
 
 /* ==================================== //FOOTER ==================================== */
+
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+
+/* ==================================== ABOUT US ==================================== */
+
+.container-nav {
+  margin-top: 200px;
+}
+
+/* ==================================== //ABOUT US ==================================== */
