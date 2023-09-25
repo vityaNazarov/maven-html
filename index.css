@@ -640,8 +640,8 @@ summary {
 .nonsense-svg {
   position: fixed;
   top: 50%;
-  left: 88%;
-  transform: translate(-88%, -50%);
+  left: 99%;
+  transform: translate(-99%, -50%);
 }
 
 /* ==================================== HEADER ==================================== */
