@@ -1,0 +1,54 @@
+@import "./vendors/modern-normalize";
+
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+@import "./components/header";
+@import "./components/footer";
+@import "./components/container";
+@import "./components/logotype";
+@import "./components/suptitle";
+@import "./components/title";
+@import "./components/chevron-btn";
+@import "./components/nonsense-svg";
+
+/* ==================================== MAIN-LAYOUT ==================================== */
+
+@import "./main-layout/hero";
+@import "./main-layout/advantages";
+@import "./main-layout/carousel";
+@import "./main-layout/inst-section";
+
+/* ==================================== //MAIN-LAYOUT ==================================== */
+
+//
+//
+//
+
+/* ==================================== ABOUT US ==================================== */
+
+@import "./about-us-layout/container-nav";
+@import "./about-us-layout/about-company";
+@import "./about-us-layout/produce";
+
+/* ==================================== //ABOUT US ==================================== */
+
+//
+//
+//
+
+/* ==================================== CAREER ==================================== */
+
+@import "./career-layout/career";
+
+/* ==================================== //CAREER ==================================== */
+
+//
+//
+//
+
+/* ==================================== PROJECTS ==================================== */
+
+@import "./projects-layout/projects-gallery.scss";
+
+/* ==================================== //PROJECTS ==================================== */

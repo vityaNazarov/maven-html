@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Comfortaa:wght@300;400;500;600;700&family=Lato&family=Montserrat:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--HEADER-->
@@ -124,40 +124,39 @@
     </svg>
 
     <main>
-      <div class="container container-nav">
-        <a class="container-nav-link" href="">Головна</a>
-        <svg
-          width="16"
-          height="12"
-          viewBox="0 0 16 12"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M10.0637 11.6136L9.24834 10.8232L13.5445 6.52703H0.29834V5.39245H13.5445L9.23297 1.0809L10.0483 0.290527L15.7175 5.95975L10.0637 11.6136Z"
-            fill="#232427"
-          />
-        </svg>
-        <a class="container-nav-link" href="">Про Нас</a>
-        <svg
-          width="16"
-          height="12"
-          viewBox="0 0 16 12"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M10.0637 11.6136L9.24834 10.8232L13.5445 6.52703H0.29834V5.39245H13.5445L9.23297 1.0809L10.0483 0.290527L15.7175 5.95975L10.0637 11.6136Z"
-            fill="#232427"
-          />
-        </svg>
-        <a class="container-nav-link" href="">Про компанію</a>
-      </div>
-
       <!--ПРО КОМПАНІЮ-->
 
       <section class="company">
         <div class="container container-company">
+          <div class="container-nav">
+            <a class="container-nav-link" href="">Головна</a>
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 16 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.0637 11.6136L9.24834 10.8232L13.5445 6.52703H0.29834V5.39245H13.5445L9.23297 1.0809L10.0483 0.290527L15.7175 5.95975L10.0637 11.6136Z"
+                fill="#232427"
+              />
+            </svg>
+            <a class="container-nav-link" href="">Про Нас</a>
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 16 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.0637 11.6136L9.24834 10.8232L13.5445 6.52703H0.29834V5.39245H13.5445L9.23297 1.0809L10.0483 0.290527L15.7175 5.95975L10.0637 11.6136Z"
+                fill="#232427"
+              />
+            </svg>
+            <a class="container-nav-link" href="">Про компанію</a>
+          </div>
           <h2 class="title">Про компанію</h2>
           <div class="about-company-block">
             <div class="about-company-main">
@@ -181,19 +180,24 @@
                 компанія прагне створювати унікальні предмети інтерʼєру, які
                 будуть радувати своїх власників довгі роки.
               </p>
-              <div class="about-company-img">
-                <img
-                  width="355"
-                  height="215"
-                  src="./images/img/about-company/company-img2.jpg"
-                  alt="работник"
-                /><img
-                  width="355"
-                  height="215"
-                  src="./images/img/about-company/company-img3.jpg"
-                  alt="работник"
-                />
-              </div>
+              <ul class="about-company-gallery-list list">
+                <li class="about-company-gallery-item">
+                  <img
+                    width="355"
+                    height="215"
+                    src="./images/img/about-company/company-img2.jpg"
+                    alt="работник"
+                  />
+                </li>
+                <li class="about-company-gallery-item">
+                  <img
+                    width="355"
+                    height="215"
+                    src="./images/img/about-company/company-img3.jpg"
+                    alt="работник"
+                  />
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -221,6 +225,7 @@
             </li>
           </ul>
           <img
+            class="about-company-collective-img"
             width="1280"
             height="400"
             class="collective-img"
@@ -235,36 +240,44 @@
       <section class="produce">
         <div class="container container-produce">
           <h2 class="title">Виробництво</h2>
-          <div class="produce-img-block">
-            <img
-              width="300"
-              height="300"
-              class="produce-img"
-              src="./images/img/about-company/produce-img1.jpg"
-              alt="работник"
-            />
-            <img
-              width="300"
-              height="300"
-              class="produce-img"
-              src="./images/img/about-company/produce-img2.jpg"
-              alt="оборудование"
-            />
-            <img
-              width="300"
-              height="300"
-              class="produce-img"
-              src="./images/img/about-company/produce-img3.jpg"
-              alt="работник"
-            />
-            <img
-              width="300"
-              height="300"
-              class="produce-img"
-              src="./images/img/about-company/produce-img4.jpg"
-              alt="оборудование"
-            />
-          </div>
+          <ul class="produce-img-list list">
+            <li class="produce-img-item">
+              <img
+                width="300"
+                height="300"
+                class="produce-img"
+                src="./images/img/about-company/produce-img1.jpg"
+                alt="работник"
+              />
+            </li>
+            <li class="produce-img-item">
+              <img
+                width="300"
+                height="300"
+                class="produce-img"
+                src="./images/img/about-company/produce-img2.jpg"
+                alt="оборудование"
+              />
+            </li>
+            <li class="produce-img-item">
+              <img
+                width="300"
+                height="300"
+                class="produce-img"
+                src="./images/img/about-company/produce-img3.jpg"
+                alt="работник"
+              />
+            </li>
+            <li class="produce-img-item">
+              <img
+                width="300"
+                height="300"
+                class="produce-img"
+                src="./images/img/about-company/produce-img4.jpg"
+                alt="оборудование"
+              />
+            </li>
+          </ul>
           <p class="produce-text">
             Maven у перекладі англ. «знавець своєї справи». Maven Group - це
             міцна команда, яка складається з фахівців кожен у своєму напрямі. З
@@ -281,7 +294,7 @@
       <!--ПЕРЕВАГИ-->
 
       <section class="advantages-section">
-        <div class="container">
+        <div class="container container-advantages-section">
           <p class="suptitle">НАШІ ПЕРЕВАГИ</p>
           <h2 class="title">
             Які наші основні метрики, завдяки яким ми маємо велику кількість

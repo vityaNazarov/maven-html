@@ -1,0 +1,64 @@
+.about-company-block {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+// .about-company-main {
+// }
+
+.about-company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-company-text {
+  color: var(--text-dark);
+
+  /* Desktop/Body */
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5; /* 30px */
+  letter-spacing: 0.024px;
+}
+
+.about-company-gallery-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+// .about-company-gallery-item {
+// }
+
+.about-company-info-secondary {
+  margin-bottom: 64px;
+}
+
+.about-company-info-text {
+  color: var(--text-dark);
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5; /* 30px */
+  letter-spacing: 0.024px;
+  margin-top: 24px;
+}
+
+.about-company-info-list {
+  margin-bottom: 32px;
+}
+
+.about-company-info-item {
+  color: var(--text-dark);
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5; /* 30px */
+  letter-spacing: 0.024px;
+  margin-left: 30px;
+}
+
+// .about-company-collective-img {
+// }

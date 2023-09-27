@@ -1,0 +1,36 @@
+.carousel-section {
+  margin-top: 64px;
+}
+
+.chevron-btn-carousel {
+  margin-bottom: 24px;
+}
+
+.carousel-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+
+.carousel-list-item {
+  flex-basis: calc((100% - 72px) / 100);
+  transition: transform 250ms ease-in-out;
+  cursor: pointer;
+}
+.carousel-list-item:hover {
+  transform: scale(1.03);
+}
+
+.carousel-list-img {
+  border-radius: 16px;
+}
+.carousel-list-img:hover {
+  box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-slider {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
