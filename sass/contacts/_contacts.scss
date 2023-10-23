@@ -1,0 +1,35 @@
+.contacts-block {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts {
+  width: 520px;
+}
+.contacts-section {
+  padding: 24px 0;
+}
+.contacts-section-title {
+  color: var(--text-dark);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2; /* 28.8px */
+  letter-spacing: 0.029px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.contacts-section-social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.contacts-section-link {
+  color: var(--text-dark);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.contacts-map {
+}
+.contacts-map-iframe {
+  border-radius: 25px;
+}

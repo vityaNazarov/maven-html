@@ -6,11 +6,11 @@
 @import "./components/header";
 @import "./components/footer";
 @import "./components/container";
-@import "./components/logotype";
 @import "./components/suptitle";
 @import "./components/title";
 @import "./components/chevron-btn";
 @import "./components/nonsense-svg";
+@import "./components/arrow-back";
 
 /* ==================================== MAIN-LAYOUT ==================================== */
 
@@ -18,8 +18,6 @@
 @import "./main-layout/advantages";
 @import "./main-layout/carousel";
 @import "./main-layout/inst-section";
-
-/* ==================================== //MAIN-LAYOUT ==================================== */
 
 //
 //
@@ -31,8 +29,6 @@
 @import "./about-us-layout/about-company";
 @import "./about-us-layout/produce";
 
-/* ==================================== //ABOUT US ==================================== */
-
 //
 //
 //
@@ -41,14 +37,84 @@
 
 @import "./career-layout/career";
 
-/* ==================================== //CAREER ==================================== */
-
 //
 //
 //
 
 /* ==================================== PROJECTS ==================================== */
 
-@import "./projects-layout/projects-gallery.scss";
+@import "./projects-layout/projects-gallery";
 
-/* ==================================== //PROJECTS ==================================== */
+//
+//
+//
+
+/* ==================================== PROJECT ==================================== */
+
+@import "./project-layout/project";
+@import "./project-layout/project-used-items";
+
+//
+//
+//
+
+/* ==================================== CATALOG ==================================== */
+
+@import "./catalog/catalog";
+
+//
+//
+//
+
+/* ==================================== SERIAL-PRODUCTS-SECTION ==================================== */
+
+@import "./serial-products-section-layout/serial-products-gallery";
+
+//
+//
+//
+
+/* ==================================== SUBSECTION-CATEGORIES ==================================== */
+
+@import "./subsection-categories-layout/subsection.scss";
+
+//
+//
+//
+
+/* ==================================== PRODUCT-CARD ==================================== */
+
+@import "./product-card/product-card-gallery";
+@import "./product-card/product-card-info";
+
+//
+//
+//
+
+/* ==================================== CART-WITH-ITEMS ==================================== */
+
+@import "./cart-with-item/cart-with-item";
+
+//
+//
+//
+
+/* ==================================== CART-WITH-ITEMS ==================================== */
+
+@import "./individual-projects/individual-projects";
+
+//
+//
+//
+
+/* ==================================== B2B ==================================== */
+
+@import "./b2b/business";
+
+//
+//
+//
+
+/* ==================================== CONTACTS ==================================== */
+
+@import "./contacts/contacts";
