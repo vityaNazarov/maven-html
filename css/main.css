@@ -683,6 +683,8 @@ summary {
 
 .chevron-svg {
   transition: transform 100ms ease-in-out;
+  width: 24px;
+  height: 24px;
 }
 
 /* ==================================== min-width: 768px ==================================== */
@@ -695,6 +697,10 @@ summary {
     line-height: 1.2;
     letter-spacing: 0.8px;
   }
+  .chevron-svg {
+    width: 28px;
+    height: 28px;
+  }
 }
 /* ==================================== min-width: 1300px ==================================== */
 @media screen and (min-width: 1300px) {
@@ -705,6 +711,10 @@ summary {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.029px;
+  }
+  .chevron-svg {
+    width: 32px;
+    height: 32px;
   }
 }
 .nonsense-svg {
