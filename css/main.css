@@ -4064,39 +4064,65 @@ summary {
 .buisness-text {
   color: var(--text-dark);
   font-family: Lato, sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1.5; /* 30px */
-  letter-spacing: 0.024px;
-  margin-bottom: 64px;
+  line-height: 1.5;
+  letter-spacing: 0.017px;
+  margin-bottom: 48px;
 }
 
 .ready-examles-title {
   color: var(--text-dark);
   text-align: center;
-  font-size: 32px;
-  font-style: normal;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 120%; /* 38.4px */
-  letter-spacing: 0.038px;
+  line-height: 1.5;
+  letter-spacing: 0.022px;
   text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.ready-examles-gallery-full-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   margin-bottom: 32px;
 }
 
-.ready-examles-gallery-block {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.ready-examles-gallery {
+.first-and-second {
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
+  gap: 12px;
 }
 
-.ready-examles-gallery a:not(:last-child) {
-  margin-bottom: 24px;
+.ready-examles-first-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ready-examles-first-gallery-secondary {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.ready-examles-second-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ready-examles-second-gallery-secondary {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.ready-examles-third-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .more-projects {
@@ -4106,60 +4132,198 @@ summary {
 }
 
 .more-projects-link {
-  color: var(--text-text-dark, #232427);
   background-color: transparent;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.9px;
-  text-transform: uppercase;
   display: inline-flex;
-  padding: 12px 16px;
-  justify-content: center;
+  gap: 16px;
+  padding: 8px 16px;
   align-items: center;
-  border-radius: 16px;
+  border-radius: 8px;
   border: 1px solid var(--text-dark);
   cursor: pointer;
-  margin-bottom: 80px;
+  margin-bottom: 48px;
 }
 
+.more-projects-link-text {
+  color: var(--text-text-dark, #232427);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+
+/* ==================================== min-width: 768px ==================================== */
+@media screen and (min-width: 768px) {
+  .buisness-text {
+    font-size: 16px;
+    letter-spacing: 0.019px;
+  }
+  .ready-examles-title {
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.029px;
+    margin-bottom: 32px;
+  }
+  .ready-examles-gallery-full-block {
+    flex-direction: row;
+    gap: 14px;
+  }
+  .first-and-second {
+    gap: 14px;
+  }
+  .ready-examles-first-gallery {
+    gap: 14px;
+  }
+  .ready-examles-second-gallery {
+    gap: 14px;
+  }
+  .ready-examles-third-gallery {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .more-projects-link-text {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    padding-top: 2px;
+  }
+}
+/* ==================================== min-width: 1300px ==================================== */
+@media screen and (min-width: 1300px) {
+  .buisness-text {
+    font-size: 20px;
+    letter-spacing: 0.024px;
+  }
+  .ready-examles-title {
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.038px;
+  }
+  .ready-examles-gallery-full-block {
+    flex-direction: row;
+    gap: 14px;
+  }
+  .first-and-second {
+    gap: 14px;
+  }
+  .ready-examles-first-gallery {
+    gap: 14px;
+  }
+  .ready-examles-second-gallery {
+    gap: 14px;
+  }
+  .ready-examles-third-gallery {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .more-projects-link {
+    gap: 20px;
+    padding: 12px 16px;
+    border-radius: 16px;
+    margin-bottom: 80px;
+  }
+  .more-projects-link-text {
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    padding-top: 2px;
+  }
+}
 /* ==================================== CONTACTS ==================================== */
-.contacts-block {
-  display: flex;
-  justify-content: space-between;
-}
-
 .contacts {
-  width: 520px;
+  margin-bottom: 24px;
 }
 
 .contacts-section {
-  padding: 24px 0;
+  padding: 16px 0;
+  border-top: 1px solid var(--text-secondary);
+}
+
+.contacts-section:last-child {
+  border-bottom: 1px solid var(--text-secondary);
 }
 
 .contacts-section-title {
   color: var(--text-dark);
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 1.2; /* 28.8px */
-  letter-spacing: 0.029px;
+  line-height: 1.5;
+  letter-spacing: 0.019px;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+
+.contacts-section-link {
+  color: var(--text-dark);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .contacts-section-social-links {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-}
-
-.contacts-section-link {
-  color: var(--text-dark);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: normal;
+  gap: 8px;
 }
 
 .contacts-map-iframe {
   border-radius: 25px;
+  width: 100%;
+  height: 260px;
+}
+
+/* ==================================== min-width: 768px ==================================== */
+@media screen and (min-width: 768px) {
+  .contacts-title {
+    margin-bottom: 20px;
+  }
+  .contacts-block {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacts {
+    width: 343px;
+    margin-bottom: 0;
+  }
+  .contacts-section-title {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.024px;
+    margin-bottom: 12px;
+  }
+  .contacts-section-link {
+    font-size: 14px;
+  }
+  .contacts-section-social-links {
+    gap: 10px;
+  }
+  .contacts-map-iframe {
+    width: 344px;
+    height: 100%;
+  }
+}
+/* ==================================== min-width: 1300px ==================================== */
+@media screen and (min-width: 1300px) {
+  .contacts-title {
+    margin-bottom: 48px;
+  }
+  .contacts {
+    width: 519px;
+  }
+  .contacts-section {
+    padding: 24px 0;
+  }
+  .contacts-section-title {
+    font-size: 24px;
+    letter-spacing: 0.029px;
+    margin-bottom: 16px;
+  }
+  .contacts-section-link {
+    font-size: 16px;
+  }
+  .contacts-section-social-links {
+    gap: 12px;
+  }
+  .contacts-map-iframe {
+    width: 737px;
+  }
 }/*# sourceMappingURL=main.css.map */
