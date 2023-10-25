@@ -14,11 +14,11 @@
 //
 //
 /* ==================================== max-width: 1299px ==================================== */
-@media screen and (max-width: 1299px) {
-  .menu {
-    display: none;
-  }
-}
+// @media screen and (max-width: 1299px) {
+//   .menu {
+//     display: none;
+//   }
+// }
 
 //
 //
@@ -171,5 +171,15 @@
 
   .translate-btn {
     margin-left: 24px;
+  }
+}
+
+//
+//
+//
+
+@media screen and (max-width: 1299px) {
+  .menu {
+    display: none;
   }
 }
