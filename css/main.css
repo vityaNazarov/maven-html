@@ -758,7 +758,7 @@ summary {
 .container-hero {
   width: 100%;
   height: 100%;
-  background-image: url("../../images/img/overlay/overlay-mobile.jpg");
+  background-image: url("./../images/img/overlay/overlay-mobile.jpg");
   background-size: cover;
 }
 
@@ -784,7 +784,7 @@ summary {
   text-align: center;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.5; /* 21px */
+  line-height: 1.5;
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 112px;
@@ -810,7 +810,7 @@ summary {
     height: 1133px;
   }
   .container-hero {
-    background-image: url("../../images/img/overlay/overlay-tablet.jpg");
+    background-image: url("./../images/img/overlay/overlay-tablet.jpg");
   }
   .hero {
     padding-top: 397px;
@@ -838,7 +838,7 @@ summary {
     height: 900px;
   }
   .container-hero {
-    background-image: url("../../images/img/overlay/overlay-desktop.jpg");
+    background-image: url("./../images/img/overlay/overlay-desktop.jpg");
   }
   .hero {
     padding-top: 295px;
@@ -1064,12 +1064,15 @@ summary {
     width: 167px;
     height: 167px;
   }
+  .carousel-slider-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .carousel-slider {
     width: 48px;
     height: 8px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 8px;
   }
 }
